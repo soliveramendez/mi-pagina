@@ -1,0 +1,180 @@
+body{
+margin:0;
+font-family: 'Shadows Into Light Two', cursive;
+text-align: center;
+}
+
+#menu{
+display: block;
+background-color:#2e2e2a;
+font-size: 17px;
+position: fixed;
+z-index: 2;
+width: 100%;
+}
+
+.menu h1{
+color:#FFFF;
+}
+
+ul{
+list-style: none;
+padding: 0;
+margin: 0;
+overflow: auto;
+display:inline-flex;
+float:right;
+}
+
+li {
+width: 100px;
+text-align: center;
+}
+
+a{
+text-decoration: none;
+display: block;
+color:#808B96;
+}
+
+a:hover{
+ color: #FFFF;
+}
+
+.desplegable{
+display: none;
+margin-left:50px;
+}
+
+.page{
+margin-top: 200px;
+position: absolute;
+color:white;
+font-size: 3em;
+}
+
+.header{
+background-image: url(../img/valparaiso.jpg);
+background-position: center center;
+background-size: cover;
+width: 100%;
+padding-top:30em;
+}
+
+.visit-Valparaiso{
+padding-left: 100px;
+text-align: justify;
+padding-top: 50px;
+}
+
+.titulo-visit{
+text-align: center;
+}
+
+#call-to-action{
+background-color:blue;
+color:#fff;
+padding:10px;
+border-radius: 5px;
+float: left;
+display: inline;
+margin-top:10px;
+}
+
+.titulo-contact{
+padding-top:50px;
+}
+
+.titulo-contact a{
+color: black;
+font-size: 1.2em;
+}
+
+.valparaiso{
+background-color:#2d10529c;
+margin:63px;
+padding-bottom: 60px;
+}
+
+.foto-stairs{
+background-image:url(../img/img1.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-stairs{
+text-align: justify;
+padding:10px;
+}
+
+.titulo-stairs h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+#Find-out-more{
+background-color:blue;
+color:#fff;
+padding:10px;
+border-radius: 5px;
+float: left;
+display: inline;
+margin-top:10px;
+margin-left: 10px;
+}
+
+.art{
+background-color:#7ec34ad1;
+margin:63px;
+padding-bottom: 60px;
+}
+
+.foto-art{
+background-image:url(../img/img2.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-art{
+text-align: justify;
+padding: 10px;
+}
+
+.titulo-art h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+.cerro{
+background-color:#e4982599;
+margin:63px;
+padding-bottom: 60px;
+}
+
+.foto-cerro{
+background-image:url(../img/img3.jpg);
+background-position: center center;
+background-size: cover;
+height: 200px;
+}
+
+.titulo-cerro{
+text-align: justify;
+padding: 10px;
+}
+
+.titulo-cerro h1{
+padding-top: 15px;
+font-size: 1.3em;
+text-align: center;
+}
+
+.footer{
+background-color:#2e2e2a;
+color:#FFFF;
+font-size:.9em;
+}

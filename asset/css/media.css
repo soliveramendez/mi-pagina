@@ -1,0 +1,30 @@
+@media all and (min-width:360px) and (max-width:640px){
+  [class*="col-"]{
+    width:100%;
+  }
+  
+  .page{
+  margin-top: 150px;
+  position: absolute;
+  color:white;
+  font-size: 2em;
+  }
+
+  .visit-Valparaiso{
+  padding:50px;
+ }
+
+ .desplegable{
+ display:inline-block;
+ margin-top: 10px;
+ width:10px;
+ }
+
+ li{
+ display: none;
+ }
+
+ .menu h1{
+ float: left;
+}
+}
